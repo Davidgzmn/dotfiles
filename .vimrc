@@ -20,6 +20,7 @@ set nowrap
 set smartcase
 set noswapfile
 set nobackup
+set backspace=indent,eol,start
 "not in VI compatibility mode
 set nocompatible
 set number
