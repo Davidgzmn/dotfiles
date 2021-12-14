@@ -37,7 +37,7 @@ set wildmenu
 
 "Settings for splits
 set splitbelow splitright
-
+set fillchars+=vert:\ 
 
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 "enable syntax and plugin
