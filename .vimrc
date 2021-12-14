@@ -35,6 +35,10 @@ set path+=**
 "display all matching files when we tab complete
 set wildmenu
 
+"Settings for splits
+set splitbelow splitright
+
+
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 "enable syntax and plugin
 filetype plugin on
