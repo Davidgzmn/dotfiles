@@ -16,10 +16,15 @@ export EDITOR="/usr/local/bin/vim"
 #Alias Declarations
 alias neololi="neofetch --source $HOME/.config/neofetch/loli.jpeg --backend iterm2 --crop_mode normal --loop"
 #alias ls="ls -lAGho"
-alias ls="exa -la"
+alias lla="exa -la"
+alias ll="exa -l"
+alias la="exa -a"
+alias ls="exa"
 alias rm="rm -i" 
 alias ..="cd .."
 alias zshconf="$EDITOR $HOME/.zshrc"
+alias vimconf="$EDITOR $HOME/.vimrc"
 alias reload="source $HOME/.zshrc"
 alias cmatrix="cmatrix -abC blue -u 4"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+alias anime_cli='python3 -m anime_cli'
